@@ -29,6 +29,8 @@ int main() {
 		case'/':
 			cout << "the quatient=" << num1 / num2;
 			break;
+		case '&': 
+			cout << "result is = " << pow(num1, num2);
 	}
 
 	return 0;
